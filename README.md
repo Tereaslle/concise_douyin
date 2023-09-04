@@ -46,7 +46,6 @@ lib下存放ffmpeg等视频切片工具，需根据系统在config中修改参�
 
 其中，`static`文件夹下存放视频文件、视频切片封面、用户头像、用户主页背景等资源文件，通过`router/router_interaction.go`中的`r.Static("static", config.Global.StaticSourcePath)`开放访问。
 
-本项目中的部分视频源来自[pixabay](https://pixabay.com/zh/),如有侵权请联系删除。
 
 ## 三、系统架构
 
